@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>AAURSI – Accès X25</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+  <h1>AAURSI – ACCÈS X25</h1>
+  <p>Authentification requise</p>
+  <input id="user" placeholder="Username">
+  <input id="pass" type="password" placeholder="Password">
+  <button onclick="login()">Connexion</button>
+  <div id="error"></div>
+</div>
+
+<div id="panel" class="hidden">
+  <h1>Centre de Commandement AAURSI</h1>
+  <p id="welcome"></p>
+
+  <div class="grid">
+    <div class="box">📂 Opérations en cours</div>
+    <div class="box">🧾 Missions classifiées</div>
+    <div class="box">🧠 Notes internes</div>
+    <div class="box">📡 Logs système</div>
+  </div>
+
+  <p class="sign">— VX</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
