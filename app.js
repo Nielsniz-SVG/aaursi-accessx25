@@ -1,6 +1,6 @@
 const USERS = {
-  "Dr Zed": "wxcsd54",
-  "Dr Ix": "mmopl96"
+  "Dr Zed": "aaursi",
+  "Dr Melquenn": "melina"
 };
 
 function login() {
@@ -17,5 +17,6 @@ function login() {
     err.textContent = "Accès refusé. Tentative enregistrée.";
   }
 }
+
 
 
